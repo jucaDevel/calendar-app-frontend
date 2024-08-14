@@ -1,0 +1,125 @@
+.calendar-screen{
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+.rbc-calendar{
+    height: 100%;
+    padding: 1rem;
+}
+
+.rbc-btn-group{
+    /* background-color: rgba(28, 105, 185, 0.6) !important; */
+    border-radius: 5px;
+}
+
+.rbc-btn-group > button{
+    /* color: white !important; */
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.rbc-btn-group > button:hover{
+    background-color: rgba(28, 105, 185, 0.5) !important;
+}
+
+.rbc-btn-group > .rbc-active{
+    background-color: rgba(28, 105, 185, 0.4) !important;
+}
+
+.rbc-header {
+    /* color: white; */
+    font-size: 14px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px !important;
+    /* background: linear-gradient(45deg, rgba(28, 105, 185, 0.4) 0%, rgba(152,71,245,0.8) 54%); */
+    /* background-color: rgba(28, 105, 185, 0.8); */
+}
+
+.rbc-event{
+    /* display: flex !important; */
+    text-align: center !important;
+    border-radius: 5px !important;
+    padding: 0 !important;
+    background-color: rgba(229, 229, 229, 0.5) !important;
+    color: rgb(72, 72, 72) !important;
+}
+
+.rbc-toolbar-label{
+    text-transform: capitalize;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.rbc-event-content{
+    /* height: 130px; */
+    display: flex !important;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Eventos */
+.calendar-event{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.calendar-event-header{
+    display: flex;
+    flex-direction: row;
+}
+.calendar-event-container-color{
+    width: 10px;
+    background-color: rgba(28, 105, 185, 0.5);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.calendar-event-title{
+    padding: 5px;
+}
+
+.calendar-event-container-canceled{
+    background-color: rgba(252, 140, 172, 0.773);
+    border-radius: 5px 0px 0px 5px;
+    width: 10px;
+}
+
+
+.calendar-event-info{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Footer*/
+
+.footer-calendar{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5%;
+    padding: 1rem;
+}
+/* Modal */
+
+.event-form-field{
+    width: 100%;
+}
+
+.event-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.event-modal-section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}

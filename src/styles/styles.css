@@ -1,0 +1,92 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+html, body{
+    /* height: 100vh;
+    width: 100vw; */
+    user-select: none;
+    font-family: Roboto Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(100deg, rgba(28, 105, 185) 0%, rgba(110, 78, 244,0.8) 70%);
+    height: 4rem;
+    align-items: center;
+    padding: 0.1rem 1rem;
+}
+
+.navbar-user-name{
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+/* .fab{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+.fab-danger{
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    width: 50px;
+} */
+
+.text-primary{
+    color: #531CB8;
+}
+
+.text-secondary{
+    color: #1C69B9;
+}
+
+.icon-primary{
+    color: rgb(83, 28, 184, 0.6);
+}
+
+.pointer{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.option-select{
+    background-color: rgb(230, 230, 230);
+    border-radius: 0px 0px 5px 5px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.option-select:hover{
+    background-color: rgb(201, 200, 200);
+}
+
+.container-current-options{
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    gap: 10px; /* Adds spacing between items */
+}
+
+.current-option{
+    display: inline-flex; /* Use inline-flex to make the div adjust to its content */
+    align-items: center;
+    padding: 0 5px;
+    background-color: rgba(151, 110, 226, 0.642);
+    border-radius: 20px;
+}
